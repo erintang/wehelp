@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"></meta>
+    <title>唐乙仙的申請書</title>
+    <script type="text/javascript">
+    function toggleMenu(){
+        var menu=document.getElementById("menu");
+        menu.classList.toggle("hide");
+        /*
+        if(menu.style.display="none"){
+             menu.style.display="block";
+        }else{
+        menu.style.display="none";
+        }
+       */
+    }
+    </script>
+
+    <style type="text/css">
+    .head{background-color:#457b9d;color:white;font-weight:bold;font-size:30px;
+         text-align:center;padding:10px;}
+    .content{width:1000px;margin-left:auto;margin-right:auto;}
+    .box{width:800px;padding:20px;margin:10px;margin-left:auto;margin-right:auto;background-color:#F3E7E4;line-height:30px;color:#463f3a}
+    .title{font-weight:bold;text-align:center;}
+    .hover:hover {background-color: skyblue;}
+    .hide{display:none;}
+
+    </style>
+</head>
+<body style="margin:0px;background-color:#E7D1C9;">
+    <div class="head">WeHelp 申 請 書</div>
+    <div class="content">
+        <div class="box">
+            <div class="title";onclick="toggleMenu();">個人簡介</div>
+            <hr/>
+            <ul id="menu">
+            <li>我的名字叫唐乙仙，大學讀視覺傳達設計系。畢業第二份工作開始，都是業務性質工作，當初想訓練自己社交與溝通方面的能力，而現階段工作因受疫情影響嚴重，想轉職。</li>
+            <br/>
+            <li>想轉職工程師：最後的工作是旅遊業業務，熬了兩年，不想再從事易受外界影響的行業。今年7月裸辭，因為大學有選修基礎網頁設計，本來打算上課日後從事網頁設計，但因搜尋到ptt這篇文章<a href="salary.html"class="hover">（點我）</a>，讓我嚮往具備hardskill、有提升能力空間、不退流行的工程師工作。</li>
+</ul>
+
+        </div>
+        <div class="box">
+            <div class="title">為了成為軟體工程師，曾做過什麼努力？</div>
+            <hr/>
+            <div>5-7月，先上聯成美語贈送的後端入門課程，測試自己是否排斥。</div>
+            <ul>
+            <li>Python資料分析實例入門8小時</li>
+            <li>後端服務的根基：資料庫基礎概念8小時</li>
+            <li>JAVA!!JAVA!!程式人必學語言8小時</li>
+            </ul>
+            <div>還有UDACITY的JavaScript免費課程</div>
+            <br/>
+            <div>因為發現可以接受背語法、也喜歡coding做出東西，所以決定未來方向。</div>
+            <div>7-8月，上彭彭老師的youtube” 網頁前端工程入門”的25個影片。</div>
+        </div>
+        <div class="box">
+            <div class="title">學習時間的安排</div>
+            <hr/>
+            <div>將暫不工作全心投入。</div>
+            <div>嚴格遵守一週60小時以上的學習時間，並努力維持規律的作息。目前時間規劃為上午9~12點，和下午1~8點或9點。有心理準備，若平常日時間未達標準，就是犧牲假日時間去彌補。</div>
+        </div>
+        <div class="box">
+            <div class="title">是否有想要加入的軟體公司？原因？</div>
+            <hr/>
+            <div>零壹科技股份有限公司。</div>
+            <br/>
+            <div>6月有去面試雲端等產品業務，會想進這家公司原因是“幸福企業”。</div>
+            <div>有跟面試主管聊到想要穩定又有制度的公司，當初面試官說到“我在這裡待了四年多了，這是我待最久的公司。我以前最久的也才待兩年，人家問我要不要去ＸＸ公司，我只要薪水ＯＫ就跳槽。這裡我真的覺得該有的發展性、福利…都很好”。因為這番話，讓我很嚮往。</div>
+            <div>未錄取的原因，面試官當下就有提出。當初是人資發我面試，但面試官以專業為考量，考慮到我未具備相關產品知識，而他們培養一個業務出來真的是費心費力，也有碰過待了3~6個月就離職的，他們很怕再發生。所以如果應徵軟體工程師職缺，我還是會想進這間公司。</div>
+        </div>
+        <div class="box">
+            <div class="title">曾經碰到最困難的事情，如何克服？</div>
+            <hr/>
+            <div>曾經的我，是個內向害羞、不敢跟陌生人講話的女生。</div>
+            <div>其實求學階段我就開始意識到這個問題，只是不知道怎麼改變，就單純想著為什麼班上我只有幾個朋友，而別人都可以跟班上不是一群的同學，那麼自然地聊天相處。</div>
+            <div>但真正改變是畢業後，因為強烈的想要改變、不想再這樣下去，所以除了看書之外，直接強迫自己做需要面對面、跟人溝通的銷售工作。慢慢地由一開始的不擅長應對，只能學書裡方法去打開話題，再到能夠自然的關心生活面，到現在搭計程車都會習慣性聊幾句。我覺得找方法，然後直接嘗試是幫助我最多的。</div>
+        </div>
+        <div class="box">
+            <div class="title">網頁申請的開發心得</div>
+            <hr/>
+            <div>花了很多時間在做選單開合，但是不知道哪裡結合失敗了。</div>
+            <div>有試過剛開始的script type="text/javascript"</div>
+            <div>還有script type="text/javascript"加style type="text/css"</div>
+            <div>上面code都跟老師的一樣，下方不知道哪裡有問題，是因為有box所以不一樣嗎？</div>
+            <div>＊<>括號替換()</div>
+            <div>(div class="title";onclick="toggleMenu();")個人簡介(/div)</div>
+            <div>(hr/)</div>
+            <div>(ul id="menu")</div>
+            <div>(li)我的名字……(/li)</div>
+            <div>(li)想轉職的原因…….(/li)</div>
+            <div>(/ul)</div>
+            <div>(/div)</div>
+
+        </div>
+        <div class="box">
+            <div class="title">想要對WeHelp說的話</div>
+            <hr/>
+            <div>有看過前兩屆學長姐分享的學習心路歷程，覺得最大的困難是要自主學習、迎難而上和自律，</div>
+            <div>所以我想說</div>
+            <div>彭彭老師，我準備好了！我有信心去面對接下來的挑戰！</div>
+        </div>
+
+
+    </div>
+</body>
+</html>
